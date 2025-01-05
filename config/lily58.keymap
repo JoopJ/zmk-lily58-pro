@@ -109,7 +109,7 @@
             #binding-cells = <2>;
             hold-while-undecided;
             tapping-term-ms = <800>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             quick-tap-ms = <500>;
         };
     };
