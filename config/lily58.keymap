@@ -123,7 +123,7 @@
 &MomentaryLayerHold 2 LS(TAB)  &kp Q   &kp W   &kp E      &kp R                    &kp T                                                                                        &kp Y                         &kp U                     &kp I      &kp O    &kp P     &MomentaryLayerHold 2 MINUS
 &MomentaryLayerHold 1 ENTER    &kp A   &kp S   &kp D      &kp F                    &kp G                                                                                        &kp H                         &kp J                     &kp K      &kp L    &kp SEMI  &MomentaryLayerHold 1 ENTER
 &kp LEFT_SHIFT                 &kp Z   &kp X   &kp C      &kp V                    &kp B                            &NewTerminal                   &OpenTaskManager             &kp N                         &kp M                     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                                               &kp RCTRL  &TwoKeys LEFT_ALT ENTER  &TwoKeys LEFT_COMMAND BACKSPACE  &MomentaryLayerHold 1 SPACE    &MomentaryLayerHold 1 SPACE  &TwoKeys BACKSPACE RIGHT_GUI  &TwoKeys RIGHT_ALT ENTER  &kp RCTRL
+                                               &kp RCTRL  &TwoKeys LEFT_ALT ENTER  &TwoKeys LEFT_COMMAND BACKSPACE  &MomentaryLayerHold 1 SPACE    &MomentaryLayerHold 1 SPACE  &TwoKeys RIGHT_GUI BACKSPACE  &TwoKeys RIGHT_ALT ENTER  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
