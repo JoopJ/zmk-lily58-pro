@@ -132,11 +132,11 @@
 
         lower_layer {
             bindings = <
-&kp TILDE                     &leftCommandLeftSquareBracket  &commandAltRightBracket  &commandAltLeftCurlyBracket  &commandRightCurlyBracket  &kp HOME                                    &kp HOME                    &kp K_PREV              &kp K_NEXT     &trans     &kp K_MUTE        &kp K_VOLUME_UP
-&kp GRAVE                     &none                          &leftAlt                 &kp UP_ARROW                 &rightAlt                  &kp PG_UP                                   &kp PG_UP                   &leftAlt                &kp UP_ARROW   &rightAlt  &kp K_PLAY_PAUSE  &kp K_VOLUME_DOWN
-&none                         &none                          &kp LEFT                 &kp DOWN                     &kp RIGHT                  &kp PAGE_DOWN                               &kp PG_DN                   &kp LEFT                &kp DOWN       &kp RIGHT  &none             &none
-&TwoKeys CAPSLOCK LEFT_SHIFT  &kp LEFT_BRACKET               &kp RIGHT_BRACKET        &kp LEFT_BRACE               &kp RIGHT_BRACE            &kp END                    &copy    &paste  &kp END                     &kp PIPE                &kp SEMICOLON  &kp COLON  &kp BACKSLASH     &TwoKeys CAPSLOCK RIGHT_SHIFT
-                                                                                      &kp RIGHT_CONTROL            &TwoKeys LEFT_ALT TAB      &TwoKeys LEFT_COMMAND DEL  &none    &none   &TwoKeys RIGHT_COMMAND DEL  &TwoKeys RIGHT_ALT TAB  &kp RCTRL
+&kp TILDE     &leftCommandLeftSquareBracket  &commandAltRightBracket  &commandAltLeftCurlyBracket  &commandRightCurlyBracket  &kp HOME                        &kp HOME       &kp K_PREV     &kp K_NEXT     &kp K_PLAY_PAUSE  &kp K_MUTE     &kp K_VOLUME_UP
+&kp GRAVE     &none                          &leftAlt                 &kp UP_ARROW                 &rightAlt                  &kp PG_UP                       &kp PG_UP      &leftAlt       &kp UP_ARROW   &rightAlt         &none          &kp K_VOLUME_DOWN
+&none         &none                          &kp LEFT                 &kp DOWN                     &kp RIGHT                  &kp PAGE_DOWN                   &kp PG_DN      &kp LEFT       &kp DOWN       &kp RIGHT         &none          &none
+&kp CAPSLOCK  &kp LEFT_BRACKET               &kp RIGHT_BRACKET        &kp LEFT_BRACE               &kp RIGHT_BRACE            &kp END        &copy    &paste  &kp END        &kp PIPE       &kp SEMICOLON  &kp COLON         &kp BACKSLASH  &kp CAPSLOCK
+                                                                      &kp RIGHT_CONTROL            &kp LEFT_ALT               &kp BACKSPACE  &none    &none   &kp BACKSPACE  &kp RIGHT_ALT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
